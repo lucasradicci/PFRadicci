@@ -35,7 +35,7 @@ main{
             font-size: 20px;
             float: right;
             margin-left: 10px;
-            margin-right: 5px;
+            margin-right: 10px;
 
             &:hover {
                 color: $color-4; 
@@ -47,7 +47,7 @@ main{
 
 img{
     background-position: center;
-    background-image: cover;
+    background-size: cover;
 }
 
 
