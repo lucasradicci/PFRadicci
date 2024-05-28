@@ -106,3 +106,22 @@ footer p{
         }
     }
 }
+main h1{
+    color: grey;
+    &:hover{
+        color: $color-3;
+    }
+}
+.btn {
+    background-color: $color-6 ;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        color: $color-5;
+    }
+}

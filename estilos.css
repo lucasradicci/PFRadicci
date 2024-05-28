@@ -82,4 +82,24 @@ footer p {
   color: blue;
 }
 
+main h1 {
+  color: grey;
+}
+main h1:hover {
+  color: rgb(160, 68, 160);
+}
+
+.btn {
+  background-color: rgb(241, 184, 76);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  color: rgb(241, 166, 179);
+}
+
 /*# sourceMappingURL=estilos.css.map */
