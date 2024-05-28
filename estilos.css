@@ -102,4 +102,13 @@ main h1:hover {
   color: rgb(241, 166, 179);
 }
 
+main h2 {
+  text-align: center;
+  color: rgb(100, 100, 231);
+}
+
+main h3 {
+  color: rgb(160, 68, 160);
+}
+
 /*# sourceMappingURL=estilos.css.map */
