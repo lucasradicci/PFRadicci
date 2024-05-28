@@ -5,6 +5,7 @@ $color-4: rgb(226, 226, 204);
 $color-5: rgb(241, 166, 179);
 $color-6: rgb(241, 184, 76);
 $color-7: rgb(5, 0, 0);
+$color-8: rgb(26, 255, 255);
 
 
 
@@ -131,8 +132,72 @@ main h1{
 main h2{
     text-align: center;
     color: $color-2;
+    
+    &:hover{
+        color: $color-5;
+    }
+
+
 }
 main h3{
     color: $color-3;
 }
+.product-image {
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  
+  &:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  
+  // Animaciones específicas para cada imagen
+  &.img-aire-acondicionado {
+    &:hover {
+      transform: rotate(5deg) scale(1.05);
+    }
+  }
+  
+  &.img-heladera {
+    &:hover {
+      transform: translateY(-10px) scale(1.05);
+    }
+  }
+  
+  &.img-lavarropas {
+    &:hover {
+      transform: translateX(10px) scale(1.05);
+    }
+  }
+  
+  &.img-batidora {
+    &:hover {
+      transform: translateY(10px) scale(1.05);
+    }
+  }
+  
+  &.img-mixer {
+    &:hover {
+      transform: rotate(-5deg) scale(1.05);
+    }
+  }
+  
+  &.img-pava {
+    &:hover {
+      transform: translateX(-10px) scale(1.05);
+    }
+  }
+  
+  &.img-smart-tv {
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  
+  &.img-cocina {
+    &:hover {
+      transform: scale(0.95);
+    }
+  }
+}
+
 

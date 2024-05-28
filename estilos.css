@@ -105,9 +105,44 @@ main h2 {
   text-align: center;
   color: rgb(100, 100, 231);
 }
+main h2:hover {
+  color: rgb(241, 166, 179);
+}
 
 main h3 {
   color: rgb(160, 68, 160);
+}
+
+.product-image {
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+.product-image:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+.product-image.img-aire-acondicionado:hover {
+  transform: rotate(5deg) scale(1.05);
+}
+.product-image.img-heladera:hover {
+  transform: translateY(-10px) scale(1.05);
+}
+.product-image.img-lavarropas:hover {
+  transform: translateX(10px) scale(1.05);
+}
+.product-image.img-batidora:hover {
+  transform: translateY(10px) scale(1.05);
+}
+.product-image.img-mixer:hover {
+  transform: rotate(-5deg) scale(1.05);
+}
+.product-image.img-pava:hover {
+  transform: translateX(-10px) scale(1.05);
+}
+.product-image.img-smart-tv:hover {
+  transform: scale(1.1);
+}
+.product-image.img-cocina:hover {
+  transform: scale(0.95);
 }
 
 /*# sourceMappingURL=estilos.css.map */
