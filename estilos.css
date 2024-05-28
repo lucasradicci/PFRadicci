@@ -5,17 +5,38 @@
   box-sizing: border-box;
 }
 
+main {
+  background-color: rgb(226, 226, 204);
+}
+
+.navbar-brand {
+  color: blue;
+  margin-right: 100px;
+  margin-left: 10px;
+  float: right;
+}
+.navbar-brand:hover {
+  color: rgb(241, 184, 76);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(179, 36, 36);
+  font-size: 20px;
+  float: right;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgb(226, 226, 204);
+}
+
 img {
   background-position: center;
   background-image: cover;
 }
 
-main {
-  background-color: rgb(226, 226, 204);
-}
-
 footer {
-  background-color: black;
+  background-color: rgb(5, 0, 0);
 }
 
 footer p {
