@@ -145,4 +145,39 @@ main h3 {
   transform: scale(0.95);
 }
 
+.card-title {
+  color: rgb(160, 68, 160);
+  font-size: 25px;
+}
+
+.card-text {
+  color: rgb(179, 36, 36);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.service1 {
+  background-color: rgb(241, 184, 76);
+}
+
+.service2 {
+  background-color: rgb(241, 184, 76);
+}
+
+.service3 {
+  background-color: rgb(241, 184, 76);
+}
+
+.service4 {
+  background-color: rgb(241, 184, 76);
+}
+
+.service5 {
+  background-color: rgb(241, 184, 76);
+}
+
+.service6 {
+  background-color: rgb(241, 184, 76);
+}
+
 /*# sourceMappingURL=estilos.css.map */
