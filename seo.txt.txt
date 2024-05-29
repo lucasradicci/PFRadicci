@@ -1,0 +1,5 @@
+1- aplique nuevos titulos para cada archivo html.
+2- agregue etiquetas meta desc con su contenido para cada archivo html.
+3- agregue etiquetas meta keywords a cada archivo html.
+4- aplique el texto alternativo para cada imagen de cada archivo html.
+5- agregue h1, h2 y h3.
